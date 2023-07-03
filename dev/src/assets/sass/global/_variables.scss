@@ -1,0 +1,43 @@
+// color
+$c-main: #333;
+$c-text: #555;
+
+// font
+$ff-base: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+$fw-base: 500;
+$fz-base: 16px;
+$linehight: calc(27 / 16);
+
+// レイアウト
+$inner-width: 940px; // インナー幅サイズ
+$inner-padding: 20px;
+$sp-width: 767px; // スマホサイズ
+
+// ブレークポイント
+$breakpoints: (
+  // スマホ以下の場合
+  "sp": "screen and (max-width: #{$sp-width})",
+  // タブレット以下の場合
+  "tab": "screen and (min-width: #{$sp-width + 1px})",
+  // タブレット以上の場合
+  "pc": "screen and (min-width: #{$inner-width})"
+);
+
+// 重なり順の定義
+$layer: (
+  // ローディング
+  loading: 300,
+  // モーダル
+  modal: 100,
+  // ドロワー
+  drawer: 40,
+  // ドロワーアイコン
+  drawer-icon: 50,
+  // フローティング
+  floating: 30,
+  // ヘッダー
+  header: 20,
+  // フッター
+  footer: 10,
+  default: 1
+);

@@ -1,0 +1,23 @@
+@use "./variables" as g;
+
+// ---
+// メディアクエリー
+// ---
+@mixin mq($breakpoint: sp) {
+  @media #{map-get(g.$breakpoints, $breakpoint)} {
+    @content;
+  }
+}
+
+@mixin fz($size) {
+  font-size: $size + px;
+  font-size: calc($size / 16) + rem;
+}
+
+@mixin font($size, $linehight, $fontweight) {
+  font-size: $size + px;
+  font-size: calc($size / 16) + rem;
+  line-height: calc($linehight / $size);
+  font-weight: $fontweight;
+}
+

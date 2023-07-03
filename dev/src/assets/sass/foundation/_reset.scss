@@ -1,0 +1,121 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+dl,
+li,
+dt,
+dd,
+p,
+div,
+span,
+img,
+a,
+table,
+tr,
+th,
+td,
+small,
+button,
+time,
+figure {
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+li,
+dd {
+  list-style-type: none;
+}
+
+header,
+footer,
+nav,
+section,
+article,
+main,
+aside,
+figure,
+figcaption {
+  display: block;
+}
+
+img {
+  border: none;
+  vertical-align: bottom;
+  width: 100%;
+  height: auto;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+//フォームリセット
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+  appearance: none;
+  background-color: #fff;
+  background-image: none;
+  border: 0;
+  border-radius: 0;
+  border: 0;
+  color: inherit;
+  font-family: inherit;
+  font-size: 1em;
+  padding: 0;
+  width: 100%;
+}
+
+
+//ボタンリセット
+input[type="submit"] {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+input[type="radio"] {
+  padding: 0;
+}
+
+svg line,
+svg polyline {
+  fill: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}

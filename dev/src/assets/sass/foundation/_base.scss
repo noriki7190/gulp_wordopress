@@ -1,0 +1,30 @@
+@use '../global' as g;
+
+body {
+  color: g.$c-text;
+  font-family: g.$ff-base;
+  // font-size: global.$fz-base-sp;
+  // font-weight: global.$fw-base;
+  // line-height: global.$lh-base;
+  @include g.font(16, 27, 500);
+
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+iframe {
+  vertical-align: middle;
+}
+
+a {
+  color: inherit;
+  transition: .3s;
+  cursor: pointer;
+
+  &:hover {
+    opacity: .7;
+  }
+}
