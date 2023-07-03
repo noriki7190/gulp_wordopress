@@ -1,0 +1,151 @@
+body {
+	color: #555;
+	font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+	font-size: 16px;
+	font-size: 1rem;
+	font-weight: 500;
+	line-height: 1.6875;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+iframe {
+	vertical-align: middle;
+}
+
+a {
+	color: inherit;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+a:hover {
+	opacity: 0.7;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+dl,
+li,
+dt,
+dd,
+p,
+div,
+span,
+img,
+a,
+table,
+tr,
+th,
+td,
+small,
+button,
+time,
+figure {
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+html {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+li,
+dd {
+	list-style-type: none;
+}
+
+header,
+footer,
+nav,
+section,
+article,
+main,
+aside,
+figure,
+figcaption {
+	display: block;
+}
+
+img {
+	border: none;
+	height: auto;
+	vertical-align: bottom;
+	width: 100%;
+}
+
+a {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+textarea,
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background-color: #fff;
+	background-image: none;
+	border: 0;
+	border: 0;
+	border-radius: 0;
+	color: inherit;
+	font-family: inherit;
+	font-size: 1em;
+	padding: 0;
+	width: 100%;
+}
+
+input[type=submit] {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	padding: 0;
+}
+
+input[type=radio] {
+	padding: 0;
+}
+
+svg line,
+svg polyline {
+	fill: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
